@@ -15,17 +15,23 @@ function App() {
   // let changeItemID = (itemID) => {
   //   setID(itemID);
   // }
+  // let [id,setID] = useState(0);
+  // function setIDForParent(id){    // the child is Tours 
+  //   setID(id);
+  // }
   return (
-    <div>
-      
-      {/* <Home /> */}
+    <div>                          
       <Routes>
       <Route path='/' element={<Home />}></Route>
-      <Route path="/contactus" element={<Tour />}></Route>
-      <Route path="/TourDetails" element={<TourDetails data={db} />}></Route>
+      <Route path={"/city/:id"} element={<TourDetails data={db} />}></Route>
       </Routes>
+      <Header />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
+//// `/TourDetails/${item.id}`
