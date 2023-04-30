@@ -47,38 +47,3 @@ function TourDetails(props) {
 }
 
 export default TourDetails;
-
-
-
-
-
-
-
-
-
-/////////////////////////
-
-// import React from 'react';
-// import { useParams } from 'react-router-dom';
-// import './TourDetails.css';
-
-// function TourDetails(props) {
-//   const { data } = props;
-//   const { id } = useParams();
-
-//   const item = data.find((item) => item.id === parseInt(id));
-
-//   if (!item) {
-//     return <div>Error: Item not found</div>;
-//   }
-
-//   return (
-//     <div>
-//       <h1>{item.name}</h1>
-//       <img src={item.image} alt={item.name} />
-//     </div>
-//   );
-// }
-
-
-// export default TourDetails;
