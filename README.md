@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Travel-Destination
+
+## Project details:
+
+### This is a simple app to show some recommended places to tranvel to, made with react.
+
+### The places are shown based on the data that is inside the db.json file in the components.
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +78,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Travel-Destination
